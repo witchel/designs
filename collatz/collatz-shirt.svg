@@ -1,0 +1,114 @@
+<svg viewBox="-10 -30 770 550" xmlns="http://www.w3.org/2000/svg">
+<rect x="-10" y="-30" width="770" height="550" fill="#08080f"/>
+
+<!-- All circle strokes: 2.0. Line strokes: 5.0. -->
+<!-- Tangent: center = curve ± (r + 3.5) -->
+
+<!-- ===== ROW 1: 127 (purple) vs 27 (hot pink) ===== -->
+
+<!-- 127: staircase + descent -->
+<path d="M 40 185 C 49 184, 70 180, 81 176 C 93 172, 104 170, 123 166 C 142 162, 152 158, 164 153 C 177 148, 188 142, 206 135 C 224 128, 234 119, 247 109 C 260 99, 271 86, 289 72 C 300 55, 308 36, 315 35 C 322 34, 335 58, 345 72 C 355 86, 365 140, 375 160" fill="none" stroke="#b44aff" stroke-width="5" opacity="0.9" stroke-linecap="round"/>
+<circle cx="40" cy="185" r="3" fill="#b44aff" opacity="0.5"/>
+<circle cx="81" cy="176" r="3" fill="#b44aff" opacity="0.5"/>
+<circle cx="123" cy="166" r="3" fill="#b44aff" opacity="0.5"/>
+<circle cx="164" cy="153" r="3" fill="#b44aff" opacity="0.5"/>
+<circle cx="206" cy="135" r="3" fill="#b44aff" opacity="0.5"/>
+<circle cx="247" cy="109" r="3" fill="#b44aff" opacity="0.5"/>
+<circle cx="289" cy="72" r="3" fill="#b44aff" opacity="0.5"/>
+<circle cx="315" cy="35" r="3" fill="#b44aff" opacity="0.5"/>
+<circle cx="345" cy="72" r="3" fill="#b44aff" opacity="0.5"/>
+<circle cx="375" cy="160" r="3" fill="#b44aff" opacity="0.5"/>
+<!-- 127 source: curve@(40,185) r=20 above → cy=162 -->
+<circle cx="40" cy="162" r="20" fill="#b44aff" stroke="#b44aff" stroke-width="2.0"/>
+<text x="40" y="167" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold" font-family="monospace">127</text>
+<!-- 862: curve@(164,153) r=18 above → cy=132 -->
+<circle cx="164" cy="132" r="18" fill="#b44aff" stroke="#b44aff" stroke-width="2.0" opacity="0.7"/>
+<text x="164" y="137" text-anchor="middle" fill="#fff" font-size="13" font-family="monospace" opacity="0.85">862</text>
+<!-- 1,942: curve@(247,109) r=22 above → cy=84 -->
+<circle cx="247" cy="84" r="22" fill="#b44aff" stroke="#b44aff" stroke-width="2.0" opacity="0.7"/>
+<text x="247" y="89" text-anchor="middle" fill="#fff" font-size="13" font-family="monospace" opacity="0.85">1,942</text>
+<!-- 4,372 PEAK: curve@(315,35) r=26 above → cy=6 -->
+<circle cx="315" cy="6" r="26" fill="#b44aff" stroke="#b44aff" stroke-width="2.0"/>
+<text x="315" y="11" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold" font-family="monospace">4,372</text>
+<!-- 3,280: curve@(345,72) r=22 right → cx=371, cy=72 -->
+<circle cx="371" cy="72" r="22" fill="#b44aff" stroke="#b44aff" stroke-width="2.0" opacity="0.7"/>
+<text x="371" y="77" text-anchor="middle" fill="#fff" font-size="13" font-family="monospace" opacity="0.85">3,280</text>
+
+<!-- 27: centered mountain -->
+<path d="M 430 186 C 440 181, 462 163, 478 155 C 495 147, 511 142, 527 132 C 543 122, 559 113, 575 100 C 591 87, 607 52, 623 63 C 640 74, 656 152, 672 170 C 688 188, 712 177, 720 178" fill="none" stroke="#ff2d78" stroke-width="5" opacity="0.9" stroke-linecap="round"/>
+<circle cx="430" cy="186" r="3" fill="#ff2d78" opacity="0.5"/>
+<circle cx="478" cy="155" r="3" fill="#ff2d78" opacity="0.5"/>
+<circle cx="527" cy="132" r="3" fill="#ff2d78" opacity="0.5"/>
+<circle cx="575" cy="100" r="3" fill="#ff2d78" opacity="0.5"/>
+<circle cx="623" cy="63" r="3" fill="#ff2d78" opacity="0.5"/>
+<circle cx="672" cy="170" r="3" fill="#ff2d78" opacity="0.5"/>
+<circle cx="720" cy="178" r="3" fill="#ff2d78" opacity="0.5"/>
+<!-- 27 source: curve@(430,186) r=18 below → cy=208 -->
+<circle cx="430" cy="208" r="18" fill="#ff2d78" stroke="#ff2d78" stroke-width="2.0"/>
+<text x="430" y="213" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold" font-family="monospace">27</text>
+<!-- 4,102: curve@(527,132) r=22 above → cy=107 -->
+<circle cx="527" cy="107" r="22" fill="#ff2d78" stroke="#ff2d78" stroke-width="2.0" opacity="0.7"/>
+<text x="527" y="112" text-anchor="middle" fill="#fff" font-size="13" font-family="monospace" opacity="0.85">4,102</text>
+<!-- 9,232 PEAK: curve@(623,63) r=26 above → cy=34 -->
+<circle cx="623" cy="34" r="26" fill="#ff2d78" stroke="#ff2d78" stroke-width="2.0"/>
+<text x="623" y="39" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold" font-family="monospace">9,232</text>
+<!-- 577: curve@(672,170) r=18 below → cy=192 -->
+<circle cx="672" cy="192" r="18" fill="#ff2d78" stroke="#ff2d78" stroke-width="2.0" opacity="0.7"/>
+<text x="672" y="197" text-anchor="middle" fill="#fff" font-size="13" font-family="monospace" opacity="0.85">577</text>
+
+<!-- ===== ROW 2: 871 (orange) vs 927 (green) — shifted down 40px ===== -->
+
+<!-- 871: V-dip then explosive climb -->
+<path d="M 40 434 C 50 430, 62 424, 72 421 C 82 418, 94 414, 104 412 C 114 410, 126 420, 137 420 C 148 420, 158 413, 169 409 C 180 405, 190 398, 201 393 C 212 388, 222 380, 233 372 C 244 364, 255 350, 266 336 C 277 322, 287 294, 298 285 C 309 276, 320 308, 330 324" fill="none" stroke="#e85500" stroke-width="5" opacity="0.9" stroke-linecap="round"/>
+<circle cx="40" cy="434" r="3" fill="#e85500" opacity="0.5"/>
+<circle cx="72" cy="421" r="3" fill="#e85500" opacity="0.5"/>
+<circle cx="104" cy="412" r="3" fill="#e85500" opacity="0.5"/>
+<circle cx="137" cy="420" r="3" fill="#e85500" opacity="0.5"/>
+<circle cx="169" cy="409" r="3" fill="#e85500" opacity="0.5"/>
+<circle cx="201" cy="393" r="3" fill="#e85500" opacity="0.5"/>
+<circle cx="233" cy="372" r="3" fill="#e85500" opacity="0.5"/>
+<circle cx="266" cy="336" r="3" fill="#e85500" opacity="0.5"/>
+<circle cx="298" cy="285" r="3" fill="#e85500" opacity="0.5"/>
+<circle cx="330" cy="324" r="3" fill="#e85500" opacity="0.5"/>
+<!-- 871 source: curve@(40,434) r=20 below → cy=434+20+3.5=458 -->
+<circle cx="40" cy="458" r="20" fill="#e85500" stroke="#e85500" stroke-width="2.0"/>
+<text x="40" y="463" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold" font-family="monospace">871</text>
+<!-- 33,532: curve@(104,412) r=22 above → cy=412-22-3.5=387 -->
+<circle cx="104" cy="387" r="22" fill="#e85500" stroke="#e85500" stroke-width="2.0" opacity="0.7"/>
+<text x="104" y="392" text-anchor="middle" fill="#fff" font-size="11" font-family="monospace" opacity="0.85">33,532</text>
+<!-- 25,150: curve@(137,420) r=22 below → cy=420+22+3.5=446 -->
+<circle cx="137" cy="446" r="22" fill="#e85500" stroke="#e85500" stroke-width="2.0" opacity="0.7"/>
+<text x="137" y="451" text-anchor="middle" fill="#fff" font-size="11" font-family="monospace" opacity="0.85">25,150</text>
+<!-- 84,886: curve@(233,372) r=22 above → cy=372-22-3.5=347 -->
+<circle cx="233" cy="347" r="22" fill="#e85500" stroke="#e85500" stroke-width="2.0" opacity="0.7"/>
+<text x="233" y="352" text-anchor="middle" fill="#fff" font-size="11" font-family="monospace" opacity="0.85">84,886</text>
+<!-- 190,996 PEAK: curve@(298,285) r=32 above → cy=285-32-3.5=250 -->
+<circle cx="298" cy="250" r="32" fill="#e85500" stroke="#e85500" stroke-width="2.0"/>
+<text x="298" y="255" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold" font-family="monospace">190,996</text>
+
+<!-- 927: double peak -->
+<path d="M 430 424 C 438 418, 462 400, 478 388 C 494 376, 511 372, 527 359 C 543 346, 559 320, 575 318 C 591 316, 607 350, 623 348 C 639 346, 656 304, 672 306 C 688 308, 712 360, 720 373" fill="none" stroke="#00b358" stroke-width="5" opacity="0.9" stroke-linecap="round"/>
+<circle cx="430" cy="424" r="3" fill="#00b358" opacity="0.5"/>
+<circle cx="478" cy="388" r="3" fill="#00b358" opacity="0.5"/>
+<circle cx="527" cy="359" r="3" fill="#00b358" opacity="0.5"/>
+<circle cx="575" cy="318" r="3" fill="#00b358" opacity="0.5"/>
+<circle cx="623" cy="348" r="3" fill="#00b358" opacity="0.5"/>
+<circle cx="672" cy="306" r="3" fill="#00b358" opacity="0.5"/>
+<circle cx="720" cy="373" r="3" fill="#00b358" opacity="0.5"/>
+<!-- 927 source: curve@(430,424) r=20 below → cy=424+20+3.5=448 -->
+<circle cx="430" cy="448" r="20" fill="#00b358" stroke="#00b358" stroke-width="2.0"/>
+<text x="430" y="453" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold" font-family="monospace">927</text>
+<!-- 14,092 sub-peak: curve@(575,318) r=26 above → cy=318-26-3.5=289 -->
+<circle cx="575" cy="289" r="26" fill="#00b358" stroke="#00b358" stroke-width="2.0" opacity="0.8"/>
+<text x="575" y="294" text-anchor="middle" fill="#fff" font-size="13" font-family="monospace">14,092</text>
+<!-- 3,523: curve@(623,348) r=22 below → cy=348+22+3.5=374 -->
+<circle cx="623" cy="374" r="22" fill="#00b358" stroke="#00b358" stroke-width="2.0" opacity="0.7"/>
+<text x="623" y="379" text-anchor="middle" fill="#fff" font-size="13" font-family="monospace" opacity="0.85">3,523</text>
+<!-- 15,856 PEAK: curve@(672,306) r=28 above → cy=306-28-3.5=275 -->
+<circle cx="672" cy="275" r="28" fill="#00b358" stroke="#00b358" stroke-width="2.0"/>
+<text x="672" y="280" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold" font-family="monospace">15,856</text>
+
+<!-- Formula -->
+<text x="375" y="505" text-anchor="middle" fill="#2a2a3a" font-size="14" font-family="monospace" font-weight="bold">n/2 if even · 3n+1 if odd</text>
+
+</svg>
