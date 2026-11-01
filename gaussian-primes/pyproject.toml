@@ -1,0 +1,24 @@
+[project]
+name = "gaussian-primes-designs"
+version = "0.1.0"
+description = "Gaussian-prime reachability graphs rendered as shirt and poster designs"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2"]
+
+[dependency-groups]
+dev = ["pyright>=1.1.390", "pytest>=8", "ruff>=0.8"]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["E741"]
+
+[tool.pyright]
+typeCheckingMode = "strict"
+venvPath = "."
+venv = ".venv"
